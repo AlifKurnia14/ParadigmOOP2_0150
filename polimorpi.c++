@@ -3,12 +3,12 @@ using namespace std;
 
 class seseorang {
     public:
-     void pesan() = 0;
+    virtual void pesan() = 0;
     //Virtual void pesan(){
     // cout <<"Pesan dari seseorang"<< endl;
     //}
 };
-class joko :public seseorang {
+class  :public seseorang {
     public:
     void pesan(){
         cout << "Pesan dari joko" << endl;
