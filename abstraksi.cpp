@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class  {
+class AbstraksiKlas {
     private: string x, y;
 
     public:
@@ -13,7 +13,7 @@ class  {
         y = b;
 
     }
-    // menampilkan nilai
+    // 
     void display(){
         cout << "x="<< x << endl;
         cout << "y="<< y << endl;
