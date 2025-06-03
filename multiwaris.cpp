@@ -11,7 +11,7 @@ class orang {
     }
 };
 
-class pekerja : virtual public orang {
+class pekerja : virtual public  {
     public:
     pekerja(int pUmur) :
     orang (pUmur)
