@@ -8,13 +8,13 @@ class remoteLampu{
     void setSaklarNo(int i, string value){
         saklarNo[i] = value;
     }
-    string getSaklarNo(int i) {
+     getSaklarNo(int i) {
         return saklarNo[i];
     }
 };
 
 int main() {
-     lampuRumah;
+    remoteLampu lampuRumah;
 
     lampuRumah.setSaklarNo(0, "Lampu Teras Rumah");
     lampuRumah.setSaklarNo(1, "Lampu Ruang Tamu");
