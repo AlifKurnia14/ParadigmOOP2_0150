@@ -2,9 +2,9 @@
 using namespace std;
 
 class AbstraksiKlas {
-    : string x, y;
+   private : string x, y;
 
-    public:
+    :
 
     //method untuk mengisi nilai
     //private member
