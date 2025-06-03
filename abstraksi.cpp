@@ -2,7 +2,7 @@
 using namespace std;
 
 class AbstraksiKlas {
-    private: string x, y;
+    : string x, y;
 
     public:
 
@@ -13,7 +13,7 @@ class AbstraksiKlas {
         y = b;
 
     }
-    // 
+    // Menampilkan nilai
     void display(){
         cout << "x="<< x << endl;
         cout << "y="<< y << endl;
